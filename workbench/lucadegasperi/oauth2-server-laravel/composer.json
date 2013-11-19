@@ -1,0 +1,20 @@
+{
+    "name": "lucadegasperi/oauth2-server-laravel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Marky",
+            "email": "mar.duarte5@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lucadegasperi\\Oauth2ServerLaravel": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
