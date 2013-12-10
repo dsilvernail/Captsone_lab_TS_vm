@@ -54,10 +54,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => '192.168.3.37',
+			'host'      => 'localhost',
 			'database'  => 'TutorScout',
 			'username'  => 'root',
-			'password'  => 'checkout',
+			'password'  => 'hellocheckin',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

@@ -11,11 +11,21 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
-});
+/*---- Route for the Home Page ----*/
+Route::get('/', 'HomeController@getIndex');
 
+/*---- Route for the Web application registration ----*/
 Route::get('login', 'HomeController@login');
 
-Route::post('login', 'HomeController@login');
+/*---- Route for the page that shows the team and bios ----*/
+Route::get('aboutus', 'HomeController@about');
+
+Route::get('divein', 'WebserviceController@divein');
+
+Route::get('demosignin', 'WebserviceController@demosignin');
+
+Route::get('register', 'HomeController@getRegister');
+
+Route::post('register', 'HomeController@postRegister');
+
+Route::get('google', 'WebserviceController@loginWithGoogle');

@@ -5,7 +5,10 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.0.*",
-		"artdarek/oauth-4-laravel": "dev-master"
+		"artdarek/oauth-4-laravel": "dev-master",
+		"cartalyst/sentry": "2.0.*",
+		"twitter/bootstrap": "*",
+		"hybridauth/hybridauth": "*"
 	},
 	"autoload": {
 		"classmap": [
